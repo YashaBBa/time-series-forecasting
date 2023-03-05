@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="505.0" prefWidth="764.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.controller.RegistrationController">
+   <children>
+      <AnchorPane layoutY="99.0" prefHeight="405.0" prefWidth="764.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login" layoutX="200.0" layoutY="40.0" prefHeight="26.0" prefWidth="364.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;" />
+            <TextField fx:id="password" layoutX="200.0" layoutY="94.0" prefHeight="26.0" prefWidth="364.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-radius: 5; -fx-border-color: silver;" />
+            <TextField fx:id="repPassword" layoutX="196.0" layoutY="139.0" prefHeight="26.0" prefWidth="364.0" promptText="Повторите пароль" />
+            <TextField fx:id="name" layoutX="200.0" layoutY="183.0" prefHeight="26.0" prefWidth="364.0" promptText="Имя" />
+            <TextField fx:id="surname" layoutX="200.0" layoutY="232.0" prefHeight="26.0" prefWidth="364.0" promptText="Фамилия" />
+            <TextField fx:id="face" layoutX="196.0" layoutY="274.0" prefHeight="26.0" prefWidth="364.0" promptText="Род деятельности" />
+            <Button fx:id="regButton" layoutX="346.0" layoutY="320.0" mnemonicParsing="false" onAction="#reg" text="Регистрация" />
+            <Label fx:id="erField" layoutX="232.0" layoutY="366.0" prefHeight="27.0" prefWidth="290.0" style="-fx-background-color: #fafafa;" textFill="#e40404" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
